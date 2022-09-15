@@ -1,0 +1,23 @@
+.mainheading {
+    
+    font-family: Chalkduster, fantasy; 
+    font-size: 80px;
+    
+    margin: 100px;
+    margin-top: 100px;
+    margin-left: 450px;
+    margin-bottom: 5px;
+}
+body {
+    background-image: url(../img/homepage.jpg);
+    padding: 0px 100px;
+     background-size: auto;
+}
+.recipe {
+    font-size: 40px;
+    margin: 100px;
+    margin-left: 600px;
+    font-family: Chalkduster, fantasy;
+    
+}
+  
