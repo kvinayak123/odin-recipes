@@ -1,3 +1,5 @@
+
+/*mainpage styling starts */
 .mainheading {
     
     font-family: Chalkduster, fantasy; 
@@ -8,7 +10,7 @@
     margin-left: 450px;
     margin-bottom: 5px;
 }
-body {
+.mainimage {
     background-image: url(../img/homepage.jpg);
     padding: 0px 100px;
      background-size: auto;
@@ -18,6 +20,165 @@ body {
     margin: 100px;
     margin-left: 600px;
     font-family: Chalkduster, fantasy;
+}
+/*mainpage styling ends*/
+
+/*burger styling starts*/
+
+.burgerbackground {
+    background-image: url(../img/burgerbackground.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: 0px 500px 0px 0px;
     
 }
-  
+
+.intro {
+    font-size: 10px;
+}
+
+.recipeheading {
+    color: orange;
+    font-family: Chalkduster, fantasy;
+}
+
+.intro {
+    color: sandybrown;
+    color:sandybrown;
+    width: 600px;
+    background: black;
+    border: 5px solid;
+    border-color: orange;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+.ingredients {
+    color: orange;
+    font-family: Chalkduster, fantasy;
+}
+
+.list {
+    color: sandybrown;
+}
+
+.howtomake {
+    color: orange;
+    font-family: Chalkduster, fantasy;
+}
+.listb {
+    color:sandybrown;
+    width: 400px;
+    background: black;
+    border: 5px solid;
+    border-color: orange;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* burger ends */
+/* pizza starts */
+
+.pizzamain {
+    background: url(../img/pizzabackground.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: 0px 500px 0px 0px;
+    
+
+}
+.recipeheading2 {
+    margin-left: 750px;
+    color: black;
+    font-family: Chalkduster, fantasy;
+}
+.intro2 {
+    margin-left: 750px;
+    color: sandybrown;
+    color:sandybrown;
+    width: 600px;
+    background: black;
+    border: 5px solid;
+    border-color: orange;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+.ingredients2 {
+    margin-left: 750px;
+    color: black;
+    font-family: Chalkduster, fantasy; 
+}
+.list2 {
+    margin-left: 750px;
+    color:sandybrown;
+    width: 150px;
+    background: black;
+    border: 5px solid;
+    border-color: orange;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+
+}
+.howtomake2 {
+    margin-left: 750px;
+    color: black;
+    font-family: Chalkduster, fantasy;   
+}
+.listb2 {
+    margin-left: 750px;
+    color:sandybrown;
+    width: 400px;
+    background: black;
+    border: 5px solid;
+    border-color: orange;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+}
+/*pizza ends*/
+/*poutine starts*/
+
+.poutinemain {
+    background-image: url(../img/poutinebackground.jpeg);
+}
+.recipeheading3 {
+    color: black;
+    font-family: Chalkduster, fantasy;  
+}
+.intro3 {
+    
+    color:red;
+    width: 600px;
+    background: black;
+    border: 5px solid;
+    border-color: #ff4d00;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.ingredients3 {
+    color: black;
+    font-family: Chalkduster, fantasy;
+}
+.list3 {
+    
+    color:red;
+    width: 150px;
+    background: black;
+    border: 5px solid;
+    border-color: #ff4d00;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+}
+.howtomake3 {
+    
+    color: black;
+    font-family: Chalkduster, fantasy;   
+}
+.listb3 {
+    color:red;
+    width: 400px;
+    background: black;
+    border: 5px solid;
+    border-color: #ff4d00;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+}
