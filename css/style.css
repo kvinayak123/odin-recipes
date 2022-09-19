@@ -5,20 +5,17 @@
     font-family: Chalkduster, fantasy; 
     font-size: 80px;
     
-    margin: 100px;
-    margin-top: 100px;
-    margin-left: 450px;
-    margin-bottom: 5px;
+    
+    
 }
 .mainimage {
     background-image: url(../img/homepage.jpg);
-    padding: 0px 100px;
-     background-size: auto;
+    background-size: cover;
+    background-repeat:repeat;
+    
 }
 .recipe {
     font-size: 40px;
-    margin: 100px;
-    margin-left: 600px;
     font-family: Chalkduster, fantasy;
 }
 /*mainpage styling ends*/
@@ -27,7 +24,7 @@
 
 .burgerbackground {
     background-image: url(../img/burgerbackground.jpeg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
     background-position: 0px 500px 0px 0px;
@@ -46,7 +43,7 @@
 .intro {
     color: sandybrown;
     color:sandybrown;
-    width: 600px;
+    
     background: black;
     border: 5px solid;
     border-color: orange;
@@ -68,7 +65,7 @@
 }
 .listb {
     color:sandybrown;
-    width: 400px;
+    
     background: black;
     border: 5px solid;
     border-color: orange;
@@ -80,65 +77,65 @@
 
 .pizzamain {
     background: url(../img/pizzabackground.jpeg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
-    background-position: 0px 500px 0px 0px;
+    
     
 
 }
 .recipeheading2 {
-    margin-left: 750px;
+    
     color: black;
     font-family: Chalkduster, fantasy;
 }
 .intro2 {
-    margin-left: 750px;
+    
     color: sandybrown;
     color:sandybrown;
-    width: 600px;
+    
     background: black;
     border: 5px solid;
     border-color: orange;
-    padding-top: 20px;
-    padding-bottom: 20px; 
+    
 }
 .ingredients2 {
-    margin-left: 750px;
+    
     color: black;
     font-family: Chalkduster, fantasy; 
 }
 .list2 {
-    margin-left: 750px;
+    
     color:sandybrown;
-    width: 150px;
+    
     background: black;
     border: 5px solid;
     border-color: orange;
-    padding-top: 20px;
-    padding-bottom: 20px;  
+    
 
 }
 .howtomake2 {
-    margin-left: 750px;
+    
     color: black;
     font-family: Chalkduster, fantasy;   
 }
 .listb2 {
-    margin-left: 750px;
+    
     color:sandybrown;
-    width: 400px;
+    
     background: black;
     border: 5px solid;
     border-color: orange;
-    padding-top: 20px;
-    padding-bottom: 20px;  
+     
 }
 /*pizza ends*/
 /*poutine starts*/
 
 .poutinemain {
     background-image: url(../img/poutinebackground.jpeg);
+    background-size: cover;
+    background-color: hsl(0, 100%, 29%);
+    background-repeat: no-repeat;
 }
 .recipeheading3 {
     color: black;
@@ -147,7 +144,7 @@
 .intro3 {
     
     color:red;
-    width: 600px;
+    
     background: black;
     border: 5px solid;
     border-color: #ff4d00;
@@ -161,9 +158,10 @@
 .list3 {
     
     color:red;
-    width: 150px;
-    background: black;
     border: 5px solid;
+    border-color: #ff4d00;
+    background: black;
+    
     border-color: #ff4d00;
     padding-top: 20px;
     padding-bottom: 20px;   
@@ -175,10 +173,34 @@
 }
 .listb3 {
     color:red;
-    width: 400px;
-    background: black;
     border: 5px solid;
+    border-color: #ff4d00;
+    background: black;
+    
     border-color: #ff4d00;
     padding-top: 20px;
     padding-bottom: 20px;   
 }
+.container {
+    
+    width: 40%;
+    margin-right: auto;
+}
+.container1 {
+    
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+}
+.containerpizza {
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    float: right;
+    
+
+}
+
+
